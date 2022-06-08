@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ade9fd5b-8964-4c50-aa63-fd15e19b69e2" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KotlinBasics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/0 HelloWorld.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/1 Variables.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/2 Numbers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/3 Characters.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/4 Boolean.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/5 Arrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/6 String.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/7 Range.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/8 Nullable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/controlflow/1 Operators.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/controlflow/2 OperatorOverloading.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/controlflow/3 If-Else.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/controlflow/4 When.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/loop/for.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controlflow/1 Operators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/controlflow/1 Operators.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +43,17 @@
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin._8_NullableKt">
-    <configuration name="_0_HelloWorldKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_0_HelloWorldKt" />
+  <component name="RunManager" selected="Kotlin._1_OperatorsKt">
+    <configuration name="ForKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop.ForKt" />
       <module name="KotlinBasics" />
-      <option name="PROGRAM_PARAMETERS" value="config1,config2" />
-      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_1_OperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controlflow._1_OperatorsKt" />
+      <module name="KotlinBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,17 +80,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Kotlin.ForKt" />
+      <item itemvalue="Kotlin._1_OperatorsKt" />
       <item itemvalue="Kotlin._8_NullableKt" />
-      <item itemvalue="Kotlin._0_HelloWorldKt" />
       <item itemvalue="Kotlin._1_VariablesKt" />
       <item itemvalue="Kotlin._5_ArraysKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._1_OperatorsKt" />
+        <item itemvalue="Kotlin.ForKt" />
         <item itemvalue="Kotlin._8_NullableKt" />
         <item itemvalue="Kotlin._5_ArraysKt" />
         <item itemvalue="Kotlin._1_VariablesKt" />
-        <item itemvalue="Kotlin._0_HelloWorldKt" />
       </list>
     </recent_temporary>
   </component>
@@ -121,8 +111,17 @@
       <workItem from="1654283759875" duration="167000" />
       <workItem from="1654355374352" duration="65000" />
       <workItem from="1654536355605" duration="6300000" />
-      <workItem from="1654623706504" duration="4117000" />
+      <workItem from="1654623706504" duration="4148000" />
+      <workItem from="1654707840522" duration="6949000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1654629923555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654629923555</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

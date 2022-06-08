@@ -1,6 +1,12 @@
 package controlflow
 
 fun main() {
+    //  Spread operator in Kotlin is asterisk (*)
+    val arrayOne = arrayOf(1,2,3)
+    val arrayTwo = arrayOf(*arrayOne,4,5)
+
+    arrayTwo.forEach { print(it) }
+
     var numberOne = 5
     val numberTwo = 2
 
