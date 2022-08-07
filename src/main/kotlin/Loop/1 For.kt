@@ -1,4 +1,4 @@
-package loop
+package Loop
 
 fun main() {
     val localeList = arrayOf<String>("en", "tr", "fr", "ru")

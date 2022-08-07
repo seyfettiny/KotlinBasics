@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ade9fd5b-8964-4c50-aa63-fd15e19b69e2" name="Changes" comment="Functions basics.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/1 Basics.kt" afterDir="false" />
+    <list default="true" id="ade9fd5b-8964-4c50-aa63-fd15e19b69e2" name="Changes" comment="Class basics.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Functions/2 Infix.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/0 HelloWorld.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Basics/0 HelloWorld.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1 Variables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Basics/1 Variables.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2 Numbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Basics/2 Numbers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3 Characters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Basics/3 Characters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/4 Boolean.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Basics/4 Boolean.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/5 Arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Basics/5 Arrays.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/6 String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Basics/6 String.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/7 Range.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Basics/7 Range.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/8 Nullable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Basics/8 Nullable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/1 Basics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Classes/1 Basics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controlflow/1 Operators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Controlflow/1 Operators.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controlflow/2 OperatorOverloading.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Controlflow/2 OperatorOverloading.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controlflow/3 If-Else.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Controlflow/3 If-Else.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controlflow/4 When.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Controlflow/4 When.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/functions/1 Basics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Functions/1 Basics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/loop/1 For.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Loop/1 For.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/loop/2 While.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Loop/2 While.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -38,33 +55,34 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin._1_BasicsKt">
+  <component name="RunManager" selected="Kotlin._2_InfixKt">
     <configuration name="_1_BasicsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functions._1_BasicsKt" />
+      <option name="MAIN_CLASS_NAME" value="Functions._1_BasicsKt" />
       <module name="KotlinBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="_1_ForKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loop._1_ForKt" />
+      <option name="MAIN_CLASS_NAME" value="Loop._1_ForKt" />
       <module name="KotlinBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="_1_OperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controlflow._1_OperatorsKt" />
+      <option name="MAIN_CLASS_NAME" value="Controlflow._1_OperatorsKt" />
       <module name="KotlinBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_5_ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_5_ArraysKt" />
+    <configuration name="_2_InfixKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Functions._2_InfixKt" />
       <module name="KotlinBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,19 +96,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Kotlin._2_InfixKt" />
       <item itemvalue="Kotlin._1_BasicsKt" />
       <item itemvalue="Kotlin._1_ForKt" />
       <item itemvalue="Kotlin._1_OperatorsKt" />
       <item itemvalue="Kotlin._8_NullableKt" />
-      <item itemvalue="Kotlin._5_ArraysKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._2_InfixKt" />
         <item itemvalue="Kotlin._1_BasicsKt" />
         <item itemvalue="Kotlin._1_OperatorsKt" />
         <item itemvalue="Kotlin._1_ForKt" />
         <item itemvalue="Kotlin._8_NullableKt" />
-        <item itemvalue="Kotlin._5_ArraysKt" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +132,15 @@
       <workItem from="1654794425395" duration="6020000" />
       <workItem from="1655399641815" duration="1223000" />
       <workItem from="1655750317730" duration="1044000" />
+      <workItem from="1655803996770" duration="539000" />
+      <workItem from="1656092349051" duration="582000" />
+      <workItem from="1656093107259" duration="1190000" />
+      <workItem from="1659436744708" duration="1110000" />
+      <workItem from="1659457364838" duration="702000" />
+      <workItem from="1659459242295" duration="1266000" />
+      <workItem from="1659611067270" duration="4864000" />
+      <workItem from="1659872195009" duration="2825000" />
+      <workItem from="1659875070244" duration="475000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1654629923555</created>
@@ -143,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654800904161</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Class basics.">
+      <created>1655804271758</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655804271758</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +199,7 @@
     <MESSAGE value="When, for" />
     <MESSAGE value="For, While loops." />
     <MESSAGE value="Functions basics." />
-    <option name="LAST_COMMIT_MESSAGE" value="Functions basics." />
+    <MESSAGE value="Class basics." />
+    <option name="LAST_COMMIT_MESSAGE" value="Class basics." />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package controlflow
+package Controlflow
 
 fun main() {
     //  Spread operator in Kotlin is asterisk (*)

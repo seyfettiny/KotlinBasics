@@ -1,4 +1,4 @@
-package loop
+package Loop
 
 fun main() {
     //  While loops include both for and if functionality, so using while may gain readability

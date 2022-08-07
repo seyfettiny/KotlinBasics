@@ -1,4 +1,4 @@
-package classes
+package Classes
 
 fun main() {
     val car0 = Car(4)

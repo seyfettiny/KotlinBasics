@@ -1,4 +1,4 @@
-package controlflow
+package Controlflow
 
 fun main() {
     //  when control flow is switch-case in other languages.
