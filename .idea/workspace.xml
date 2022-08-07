@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ade9fd5b-8964-4c50-aa63-fd15e19b69e2" name="Changes" comment="Class basics.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Functions/2 Infix.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Functions/3 Extension.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/0 HelloWorld.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Basics/0 HelloWorld.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/1 Variables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Basics/1 Variables.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/2 Numbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Basics/2 Numbers.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/3 Characters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Basics/3 Characters.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/4 Boolean.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Basics/4 Boolean.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/5 Arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Basics/5 Arrays.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/6 String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Basics/6 String.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/7 Range.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Basics/7 Range.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/8 Nullable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Basics/8 Nullable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/1 Basics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Classes/1 Basics.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controlflow/1 Operators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Controlflow/1 Operators.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controlflow/2 OperatorOverloading.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Controlflow/2 OperatorOverloading.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controlflow/3 If-Else.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Controlflow/3 If-Else.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/controlflow/4 When.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Controlflow/4 When.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/functions/1 Basics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Functions/1 Basics.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/loop/1 For.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Loop/1 For.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/loop/2 While.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Loop/2 While.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Functions/2 Infix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Functions/2 Infix.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +33,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Kotlin._2_InfixKt">
     <configuration name="_1_BasicsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Functions._1_BasicsKt" />
@@ -88,27 +73,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_8_NullableKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_NullableKt" />
+    <configuration name="_3_ExtensionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Functions._3_ExtensionKt" />
       <module name="KotlinBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Kotlin._3_ExtensionKt" />
       <item itemvalue="Kotlin._2_InfixKt" />
       <item itemvalue="Kotlin._1_BasicsKt" />
       <item itemvalue="Kotlin._1_ForKt" />
       <item itemvalue="Kotlin._1_OperatorsKt" />
-      <item itemvalue="Kotlin._8_NullableKt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin._2_InfixKt" />
+        <item itemvalue="Kotlin._3_ExtensionKt" />
         <item itemvalue="Kotlin._1_BasicsKt" />
         <item itemvalue="Kotlin._1_OperatorsKt" />
         <item itemvalue="Kotlin._1_ForKt" />
-        <item itemvalue="Kotlin._8_NullableKt" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +125,7 @@
       <workItem from="1659459242295" duration="1266000" />
       <workItem from="1659611067270" duration="4864000" />
       <workItem from="1659872195009" duration="2825000" />
-      <workItem from="1659875070244" duration="475000" />
+      <workItem from="1659875070244" duration="7070000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1654629923555</created>
