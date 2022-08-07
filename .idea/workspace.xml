@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ade9fd5b-8964-4c50-aa63-fd15e19b69e2" name="Changes" comment="Class basics.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Functions/3 Extension.kt" afterDir="false" />
+    <list default="true" id="ade9fd5b-8964-4c50-aa63-fd15e19b69e2" name="Changes" comment="Add Extension Functions.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Functions/4 Higher Order.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Functions/2 Infix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Functions/2 Infix.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +43,9 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin._2_InfixKt">
+  <component name="RunManager" selected="Kotlin._4_Higher_OrderKt">
     <configuration name="_1_BasicsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Functions._1_BasicsKt" />
-      <module name="KotlinBasics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_1_ForKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Loop._1_ForKt" />
       <module name="KotlinBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,20 +72,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_4_Higher_OrderKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Functions._4_Higher_OrderKt" />
+      <module name="KotlinBasics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Kotlin._3_ExtensionKt" />
+      <item itemvalue="Kotlin._4_Higher_OrderKt" />
       <item itemvalue="Kotlin._2_InfixKt" />
       <item itemvalue="Kotlin._1_BasicsKt" />
-      <item itemvalue="Kotlin._1_ForKt" />
       <item itemvalue="Kotlin._1_OperatorsKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._4_Higher_OrderKt" />
         <item itemvalue="Kotlin._2_InfixKt" />
         <item itemvalue="Kotlin._3_ExtensionKt" />
         <item itemvalue="Kotlin._1_BasicsKt" />
         <item itemvalue="Kotlin._1_OperatorsKt" />
-        <item itemvalue="Kotlin._1_ForKt" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +124,7 @@
       <workItem from="1659459242295" duration="1266000" />
       <workItem from="1659611067270" duration="4864000" />
       <workItem from="1659872195009" duration="2825000" />
-      <workItem from="1659875070244" duration="7070000" />
+      <workItem from="1659875070244" duration="12321000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1654629923555</created>
@@ -162,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655804271758</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Extension Functions.">
+      <created>1659900365869</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659900365869</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +191,7 @@
     <MESSAGE value="For, While loops." />
     <MESSAGE value="Functions basics." />
     <MESSAGE value="Class basics." />
-    <option name="LAST_COMMIT_MESSAGE" value="Class basics." />
+    <MESSAGE value="Add Extension Functions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Extension Functions." />
   </component>
 </project>
