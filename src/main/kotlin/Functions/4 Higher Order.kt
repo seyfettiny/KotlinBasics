@@ -10,21 +10,24 @@ fun main() {
     }
     foo { it }
 
-    fun bar(higherOrderFunction: (Int,Int) -> Int) {
-        println(higherOrderFunction(10,5))
+    fun bar(higherOrderFunction: (Int, Int) -> Int) {
+        println(higherOrderFunction(10, 5))
     }
     bar { a, b -> a + b }
 
     //  There are three types of definitions of higher order functions:
 
     //  1. Assigning to a variable
-    val higherOrderFunction = { surName:String -> println("surname $surName") }
+    val higherOrderFunction = { name: String -> println("name $name") }
+    higherOrderFunction("Kotlin")
 
     //  2. Anonymous function
-    val anonymousFunction = fun(surName:String) { println("surname $surName") }
+    val anonymousFunction = fun(name: String) { println("name $name") }
+    anonymousFunction("Kotlin")
 
     //  3. Expression usage of anonymous function
-    val anonymousFunctionExpression = fun(surName:String) = println("surname $surName")
+    val anonymousFunctionExpression = fun(name: String) = println("name $name")
+    anonymousFunctionExpression("Kotlin")
 
     //  If a function has the same number of parameters as the Higher order function and the types of all
     //  these parameters are the same as the parameter types of the Higher Order Function,
@@ -34,13 +37,21 @@ fun main() {
     val news = News()
     news.read(::println)    //  Equivalent to news.read { title -> println(title) }
 
+    news.sortNews(listOf()) { title, body -> title.length + body.length }
 
-
-
+    //  Higher order functions can   default parameters as well.
+    news.searchNews("NewsTitle", body = { "example" })
 }
 
 class News {
     fun read(print: (String) -> Unit) {
         print("News Title")
+    }
+    fun sortNews(news: List<String>, sort: (String, String) -> Int) {
+        news.sortedBy { sort(it, "Kotlin") }
+    }
+
+    fun searchNews(title: String, body: (String) -> String = { "Kotlin" }) {
+        println(title + body("Kotlin"))
     }
 }
