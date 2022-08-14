@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ade9fd5b-8964-4c50-aa63-fd15e19b69e2" name="Changes" comment="Add Higher Order Functions.">
+    <list default="true" id="ade9fd5b-8964-4c50-aa63-fd15e19b69e2" name="Changes" comment="Add Class constructors.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Classes/2 Visibility Modifiers.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Classes/1 Basics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Classes/1 Basics.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Functions/4 Higher Order.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Functions/4 Higher Order.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +126,7 @@
       <workItem from="1659611067270" duration="4864000" />
       <workItem from="1659872195009" duration="2825000" />
       <workItem from="1659875070244" duration="14668000" />
-      <workItem from="1660421437803" duration="3614000" />
+      <workItem from="1660421437803" duration="10235000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1654629923555</created>
@@ -177,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659905865770</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Higher Order Functions.">
+      <created>1660428843885</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660428843885</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +209,7 @@
     <MESSAGE value="Class basics." />
     <MESSAGE value="Add Extension Functions." />
     <MESSAGE value="Add Higher Order Functions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Higher Order Functions." />
+    <MESSAGE value="Add Class constructors." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Class constructors." />
   </component>
 </project>
