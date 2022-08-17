@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ade9fd5b-8964-4c50-aa63-fd15e19b69e2" name="Changes" comment="Add Visibility Modifiers.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Classes/3 Inheritance.kt" afterDir="false" />
+    <list default="true" id="ade9fd5b-8964-4c50-aa63-fd15e19b69e2" name="Changes" comment="Add Abstract Class.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Classes/5 Interface.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,14 +43,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin._3_InheritanceKt">
-    <configuration name="_1_BasicsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Functions._1_BasicsKt" />
-      <module name="KotlinBasics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin._5_InterfaceKt">
     <configuration name="_2_InfixKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Functions._2_InfixKt" />
       <module name="KotlinBasics" />
@@ -79,20 +72,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_5_InterfaceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Classes._5_InterfaceKt" />
+      <module name="KotlinBasics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Kotlin._5_InterfaceKt" />
       <item itemvalue="Kotlin._3_InheritanceKt" />
       <item itemvalue="Kotlin._3_ExtensionKt" />
       <item itemvalue="Kotlin._4_Higher_OrderKt" />
       <item itemvalue="Kotlin._2_InfixKt" />
-      <item itemvalue="Kotlin._1_BasicsKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._5_InterfaceKt" />
         <item itemvalue="Kotlin._3_InheritanceKt" />
         <item itemvalue="Kotlin._4_Higher_OrderKt" />
         <item itemvalue="Kotlin._2_InfixKt" />
         <item itemvalue="Kotlin._3_ExtensionKt" />
-        <item itemvalue="Kotlin._1_BasicsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +126,11 @@
       <workItem from="1659872195009" duration="2825000" />
       <workItem from="1659875070244" duration="14668000" />
       <workItem from="1660421437803" duration="11047000" />
-      <workItem from="1660465140460" duration="9057000" />
+      <workItem from="1660465140460" duration="9164000" />
+      <workItem from="1660548871934" duration="4215000" />
+      <workItem from="1660602227444" duration="4879000" />
+      <workItem from="1660656985780" duration="2717000" />
+      <workItem from="1660728573711" duration="1974000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1654629923555</created>
@@ -198,7 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660501998230</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add Inheritance.">
+      <created>1660510355334</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660510355334</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add Abstract Class.">
+      <created>1660607981711</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660607981711</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +243,8 @@
     <MESSAGE value="Add Higher Order Functions." />
     <MESSAGE value="Add Class constructors." />
     <MESSAGE value="Add Visibility Modifiers." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Visibility Modifiers." />
+    <MESSAGE value="Add Inheritance." />
+    <MESSAGE value="Add Abstract Class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Abstract Class." />
   </component>
 </project>
