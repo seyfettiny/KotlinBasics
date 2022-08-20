@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ade9fd5b-8964-4c50-aa63-fd15e19b69e2" name="Changes" comment="Add Data Class.">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Classes/9 Enum.kt" afterDir="false" />
+    <list default="true" id="ade9fd5b-8964-4c50-aa63-fd15e19b69e2" name="Changes" comment="Add Nested and Inner Class.">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Classes/10 Inline Class.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +14,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Enum" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -44,16 +45,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin._9_EnumKt">
-    <configuration name="_3_InheritanceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Classes._3_InheritanceKt" />
-      <module name="KotlinBasics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_4_Higher_OrderKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Functions._4_Higher_OrderKt" />
+  <component name="RunManager" selected="Kotlin._10_Inline_ClassKt">
+    <configuration name="_10_Inline_ClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Classes._10_Inline_ClassKt" />
       <module name="KotlinBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,27 +67,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_9_EnumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Classes._9_EnumKt" />
+    <configuration name="_7_Enum_ClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Classes._7_Enum_ClassKt" />
+      <module name="KotlinBasics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_9_Nested_Inner_ClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Classes._9_Nested_Inner_ClassKt" />
       <module name="KotlinBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin._9_EnumKt" />
+      <item itemvalue="Kotlin._10_Inline_ClassKt" />
+      <item itemvalue="Kotlin._7_Enum_ClassKt" />
+      <item itemvalue="Kotlin._9_Nested_Inner_ClassKt" />
       <item itemvalue="Kotlin._6_Data_ClassKt" />
       <item itemvalue="Kotlin._5_InterfaceKt" />
-      <item itemvalue="Kotlin._3_InheritanceKt" />
-      <item itemvalue="Kotlin._4_Higher_OrderKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin._9_EnumKt" />
+        <item itemvalue="Kotlin._10_Inline_ClassKt" />
+        <item itemvalue="Kotlin._9_Nested_Inner_ClassKt" />
+        <item itemvalue="Kotlin._7_Enum_ClassKt" />
         <item itemvalue="Kotlin._6_Data_ClassKt" />
         <item itemvalue="Kotlin._5_InterfaceKt" />
-        <item itemvalue="Kotlin._3_InheritanceKt" />
-        <item itemvalue="Kotlin._4_Higher_OrderKt" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +133,10 @@
       <workItem from="1660602227444" duration="4879000" />
       <workItem from="1660656985780" duration="2717000" />
       <workItem from="1660728573711" duration="9707000" />
-      <workItem from="1660825859256" duration="7361000" />
+      <workItem from="1660825859256" duration="8536000" />
+      <workItem from="1660898472017" duration="612000" />
+      <workItem from="1660940260992" duration="624000" />
+      <workItem from="1660990986060" duration="8773000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1654629923555</created>
@@ -232,7 +236,35 @@
       <option name="project" value="LOCAL" />
       <updated>1660781097970</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add Enum Class.">
+      <created>1660860190096</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660860190096</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fix Enum Class name.">
+      <created>1660994034316</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1660994034316</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add Sealed Class.">
+      <created>1660999597310</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1660999597310</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add Nested and Inner Class.">
+      <created>1661009092955</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1661009092955</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +295,10 @@
     <MESSAGE value="Add Abstract Class." />
     <MESSAGE value="Add Interface." />
     <MESSAGE value="Add Data Class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Data Class." />
+    <MESSAGE value="Add Enum Class." />
+    <MESSAGE value="Fix Enum Class name." />
+    <MESSAGE value="Add Sealed Class." />
+    <MESSAGE value="Add Nested and Inner Class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Nested and Inner Class." />
   </component>
 </project>
